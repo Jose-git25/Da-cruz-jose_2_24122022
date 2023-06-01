@@ -25,7 +25,6 @@ p {
 header {
   display: flex;
   justify-content: space-between;
-  /* padding: 0 2%; */
   height: 60px;
   align-items: center;
 }
@@ -34,9 +33,7 @@ main {
   padding: 0 20px;
 }
 
-header figure {
-  margin: 0;
-}
+
 
 img {
   width: 60px;
@@ -247,7 +244,6 @@ i.fa-solid.fa-info {
 }
 
 .card-content {
-  /* margin: 10px; */
   color: black;
   font-size: 14px;
   position: relative;
@@ -274,8 +270,8 @@ i.fa-solid.fa-star.star_empty {
 i.fa-solid.fa-info {
   border: solid gray 1px;
   border-radius: 25px;
-  width: 30px;
-   height: 25px; 
+  width: 24px;
+   height: 24px; 
   display: flex;
   justify-content: center;
   align-items: center;
@@ -323,9 +319,9 @@ a {
   color: #0065fc;
  
 }
-.fa-regular, fa-star{
+/* .fa-regular, fa-star{ 
 color: #f2f2f2;
-}
+}*/
 .tope{
   position: absolute;
   bottom: 5px;
@@ -486,8 +482,6 @@ ul.pied-de-page {
 
   .zone-des-filtres {
     display: flex;
-    flex-direction: column;
-    align-items: flex-start;
     flex-wrap: wrap;
     font-size: 16px;
   }
@@ -587,7 +581,6 @@ ul.pied-de-page {
     display: flex;
     flex-direction: column;
     flex-wrap: nowrap;
-    /* width: 92%; */
     height: auto;
   }
 
@@ -599,7 +592,7 @@ ul.pied-de-page {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    /* width: 92%; */
+    
   }
 
   header ul li {
@@ -618,15 +611,13 @@ ul.pied-de-page {
   header ul li:hover {
     border-bottom: 2px solid #0065fc;  
     border-top: none;
-    /* width: 100%;   */
-    
+   
   }
 
   header nav {
-    /* display: flex; */
+    
     width: 100%;
-    /* padding-left: 35px; */
-    /* border-bottom: solid #f2f2f2; */
+    
   }
 
   #hero {
@@ -796,7 +787,7 @@ ul.pied-de-page {
 {
   font-size: 14px;
   font-weight: 400;
-    /* margin-top: -30px;   */
+   
    
 }
 
@@ -825,9 +816,7 @@ ul.pied-de-page {
 
 .card-content{ 
   margin: 8px;
-  /* display: flex; 
-  flex-direction: column;
-  justify-content: space-between;*/
+  
 }
 
   #cartes-Activites {
@@ -854,6 +843,7 @@ ul.pied-de-page {
   #cartes-Activites h2.Act{
     font-size: 16px;
     font-weight: 700;
+    width: 100%;
   }
 
   li.pied-de-page {
@@ -868,8 +858,7 @@ ul.pied-de-page {
     flex-direction: column;
     justify-content: space-between;
     list-style: none;
-    /* margin: 10px; 
-    padding: 10px;*/
+   
   }
 
   #footer {
